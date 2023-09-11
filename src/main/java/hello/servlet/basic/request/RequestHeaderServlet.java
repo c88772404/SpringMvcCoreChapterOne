@@ -22,7 +22,7 @@ public class RequestHeaderServlet extends HttpServlet {
     }
 
     private static void printStartLine(HttpServletRequest request) {
-        System.out.println("--- REQUEST-LINE - start ---");
+        System.out.println("--- REQUEST-LINE - start ----");
 
         System.out.println("request.getMethod() = " + request.getMethod()); //GET
         System.out.println("request.getProtocal() = " + request.getProtocol()); //HTTP/1.1
